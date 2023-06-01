@@ -1,0 +1,42 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: lightblue;
+  }
+
+.newGrid {
+   
+    margin-bottom: 50px;
+    border:royalblue;
+    border-radius: 50px;
+    border:solid black;
+    font-size: 20px;
+    behavior: inherit;
+}
+
+.row{
+    margin:0px;
+    padding:0px;
+    background-color:whitesmoke;
+    height: 38px;
+    width: 38px;
+    border: 1px solid rgb(0, 0, 0)
+    
+}
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-content: flex-start;
+    flex: 1;;
+    width: 1000px;
+    height:1000px;
+    max-width: 650px;
+    max-height: 650px;
+   
+  }
