@@ -11,19 +11,30 @@ body {
   background-color: lightblue;
 }
 
+.RGB{
+  margin-bottom: 50px;
+  border: royalblue;
+  border-radius: 50px;
+  border: solid black;
+  font-size: 25px;
+  margin-left: 20px;
+  background:linear-gradient(90deg, red, yellow,lightblue, pink)
+}
+
+
 .newGrid {
 
   margin-bottom: 50px;
   border: royalblue;
   border-radius: 50px;
   border: solid black;
-  font-size: 20px;
+  font-size: 25px;
+  margin-right: 20px;
 }
 
 .cells {
   
   display: flex;
-  position:relative;
   margin: 0px;
   padding: 0px;
   background-color: whitesmoke;
@@ -41,3 +52,6 @@ body {
   max-height: 600px;
 
 }
+
+
+
